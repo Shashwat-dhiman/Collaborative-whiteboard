@@ -4,15 +4,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Stage, Layer, Transformer, Circle, Text } from 'react-konva'
 import { createYjsRoom } from '@/lib/yjs'
 import { Tool } from '@/components/toolbar/tools'
+import ShapeRenderer from './ShapeRenderer'
+import { SceneNode } from './SceneGraph'
 
-type SceneNode = {
-    id: string
-    type: 'rect'
-    x: number
-    y: number
-    width: number
-    height: number
-}
 
 export default function Canvas({
     activeTool,
