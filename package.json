@@ -9,13 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "firebase": "^12.9.0",
     "konva": "^10.0.12",
     "lucide-react": "^0.562.0",
-    "next": "16.1.1",
+    "next": "^16.1.6",
     "postcss": "^8.5.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "react-konva": "^19.2.1"
+    "react-konva": "^19.2.1",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.29"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
@@ -23,8 +26,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
+    "eslint": "^4.1.1",
+    "eslint-config-next": "^0.2.4",
     "tailwindcss": "^4.1.18",
     "typescript": "^5"
   }
